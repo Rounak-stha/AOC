@@ -1,11 +1,11 @@
 import { join } from '@std/path'
-import { readInput } from '../utils.ts'
+import { readInputLines } from '../utils.ts'
 
 const dirname = import.meta.dirname
 
 if (!dirname) throw new Error("I can't find dirname")
 
-const input = readInput(join(dirname, 'data', './input.txt'))
+const input = readInputLines(join(dirname, 'data', './input.txt'))
 
 const unsafeLevelsFromPartOne: number[][] = []
 
