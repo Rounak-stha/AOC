@@ -84,6 +84,9 @@ function partOne() {
 type EmptySpaceWithAddedFiles = { added: { id: number; length: number }[]; emptySpace: number }[]
 type FileBlocks = { id: number; length: number }[]
 
+/**
+ * ToDo: Try to use Priority Queue
+ */
 function partTwo() {
 	const fileBlocks: FileBlocks = fileBlockStack.map((length, index) => ({ id: index + 1, length }))
 	const emptySpacesWithAddedFiles: EmptySpaceWithAddedFiles = emptySpaceQueue.map((emptySpace) => ({
