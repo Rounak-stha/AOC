@@ -1,7 +1,7 @@
 # Advent of Code: Challenge Accepted
 
 These challenges are written in JS with Deno as the runtime, so make sure you have deno installed on your system.
-If you do not want to use deno, make sure you replace the following in every file with corresponding import from node instead
+If you do not want to use node instead, make sure you replace the following in every file with corresponding import from node:
 
 ```js
 import { join } from '@std/path/join
